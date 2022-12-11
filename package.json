@@ -1,0 +1,22 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pberkut/test-app-electronjs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pberkut/test-app-electronjs/issues"
+  },
+  "homepage": "https://github.com/pberkut/test-app-electronjs#readme",
+  "dependencies": {
+    "electron": "^22.0.0"
+  }
+}
