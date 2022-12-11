@@ -4,12 +4,13 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron ./main.js",
+    "build": "electron-builder"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pberkut/test-app-electronjs.git"
-  },
+  }, 
   "author": "",
   "license": "ISC",
   "bugs": {
@@ -18,5 +19,8 @@
   "homepage": "https://github.com/pberkut/test-app-electronjs#readme",
   "dependencies": {
     "electron": "^22.0.0"
+  },
+  "devDependencies": {
+    "electron-builder": "^23.6.0"
   }
 }
